@@ -22,6 +22,7 @@ get_header();
         <div class="col-md-4">
             <?php dynamic_sidebar('sidebar-1') ?>
         </div>
+		
         <div class="col-md-8">
 		<?php
 		while ( have_posts() ) :
